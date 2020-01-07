@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <title>Cart</title>
+</head>
+
+<body>
+    <!-- Start Header Area -->
+    <header class="default-header">
+        <div class="menutop-wrap">
+            <div class="menu-top container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <ul class="list">
+                        <li><a href="tel:+123123123">+12312-3-123</a></li>
+                        <li><a href="mailto:flowerscence@support.com">flowerscence@support.com</a></li>
+                        <li></li>
+                    </ul>
+                    <div class="row">
+                        <p class="day-message">Don't forget to leave a like on our social media!</p>
+                    </div>
+                    <ul class="list">
+                        <li><a href="login.html">login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/flowerLogo.png" class="navbar-logo" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end align-items-center"
+                    id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End Header Area -->
+    <!-- Start Banner Area -->
+    <section class="banner-area organic-breadcrumb">
+        <div class="container">
+            <div class="breadcrumb-banner d-flex flex-wrap align-items-center">
+                <div class="col-first">
+                    <h1>Cart</h1>
+                    <nav class="d-flex align-items-center justify-content-start">
+                        <a href="index.html">Home<i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                        <a href="cart.html">Cart</a>
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Start cart segment -->
+
+    <div class="page-area cart-page spad">
+        <div class="container">
+            <div class="cart-table" tabindex="1" style="overflow: hidden; outline: none;">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="product-th">Product</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th class="total-th">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="product-col">
+                                <img src="images/products/product1.jpg" alt="product" class="img-thumbnail">
+                                <div class="pc-title">
+                                    <h4>Sanguine Annie</h4>
+                                    <a href="#">Edit Product <i class="fa fa-edit" aria-hidden="true"></i></a>
+                                </div>
+                            </td>
+                            <td class="price-col">kr. 99.00</td>
+                            <td class="quy-col">
+                                <div class="quy-input">
+                                    <span>Qty</span>
+                                    <input type="number" value="01">
+                                </div>
+                            </td>
+                            <td class="total-col">kr. 99.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="row cart-buttons">
+                <div class="col-lg-5 col-md-5">
+                    <div class="site-btn btn-continue">Continue shooping <i class="fa fa-shopping-cart"
+                            aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7 text-lg-right text-left">
+                    <div class="site-btn btn-clear">Clear cart <i class="fa fa-times" aria-hidden="true"></i></div>
+                    <div class="site-btn btn-line btn-update">Update Cart <i class="fa fa-refresh"
+                            aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-warp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="shipping-info">
+                            <h4>Shipping method</h4>
+                            <p>Select the one you want</p>
+                            <div class="shipping-chooes">
+                                <div class="sc-item">
+                                    <input type="radio" name="sc" id="one">
+                                    <label for="one">Next day delivery<span>+ kr. 50</span></label>
+                                </div>
+                                <div class="sc-item">
+                                    <input type="radio" name="sc" id="two">
+                                    <label for="two">Standard delivery<span>+ kr. 20</span></label>
+                                </div>
+                                <div class="sc-item">
+                                    <input type="radio" name="sc" id="three">
+                                    <label for="three">Personal Pickup<span>Free</span></label>
+                                </div>
+                            </div>
+                            <h4>Cupon code</h4>
+                            <p>Enter your cupone code</p>
+                            <div class="cupon-input">
+                                <input type="text">
+                                <button class="site-btn">Apply <i class="fa fa-check" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offset-lg-2 col-lg-6">
+                        <div class="cart-total-details">
+                            <h4>Cart total</h4>
+                            <p>Final Info</p>
+                            <ul class="cart-total-card">
+                                <li>Subtotal<span>kr. 99.00</span></li>
+                                <li>Shipping<span>Free</span></li>
+                                <li class="total">Total<span>kr. 99.00</span></li>
+                            </ul>
+                            <a class="site-btn btn-full" href="#checkout.html">Proceed to checkout <i
+                                    class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End cart segment -->
+
+
+
+
+
+
+    <!-- start footer Area -->
+    <footer class="footer-area section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3  col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h6>About Us</h6>
+                        <p>
+                            A relatively new company tha brings happinnes to your life!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h6>Newsletter</h6>
+                        <p>Stay update with our latest news</p>
+                        <div class="">
+
+                            <form novalidate="true" class="form-inline">
+                                <div class="d-flex flex-row">
+                                    <input class="form-control" name="EMAIL" placeholder="Enter Email"
+                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '"
+                                        required="" type="email">
+                                    <button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right"
+                                            aria-hidden="true"></i></button>
+                                </div>
+                                <div class="info"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-6 col-sm-6">
+                    <div class="single-footer-widget mail-chimp">
+                        <h6 class="mb-20">Instragram Feed</h6>
+                        <ul class="instafeed d-flex flex-wrap">
+                            <li><img src="images/feed/i1.jpg" alt=""></li>
+                            <li><img src="images/feed/i2.jpg" alt=""></li>
+                            <li><img src="images/feed/i3.jpg" alt=""></li>
+                            <li><img src="images/feed/i4.jpg" alt=""></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h6>Follow Us</h6>
+                        <p>Let us be social</p>
+                        <div class="footer-social d-flex align-items-center">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-spotify"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer Area -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous">
+    </script>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/ion.rangeSlider.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/nouislider.min.js"></script>
+</body>
+
+</html>

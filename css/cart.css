@@ -1,0 +1,299 @@
+.spad {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.site-btn {
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: #f37748;
+    min-width: 138px;
+    font-weight: 500;
+    background: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: Muli-Bold, sans-serif;
+    box-shadow: 2.828px 2.828px 15px 0px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+
+}
+
+
+.site-btn:hover {
+    background: -webkit-linear-gradient(45deg, #f37748 0%, #ff919c 100%);
+    color: white;
+}
+
+body>div.page-area.cart-page.spad>div.card-warp>div>div>div.col-lg-4>div>div.cupon-input>input[type=text] {
+    transform: translateY(10px)
+}
+
+.cart-buttons {
+    margin-bottom: 50px;
+}
+
+.cart-buttons .btn-continue {
+
+    padding: 21px 30px;
+    min-width: 260px;
+    font-size: 16px;
+}
+
+.cart-buttons .btn-clear {
+    min-width: 180px;
+    padding: 21px 30px;
+    margin-right: 17px;
+    font-size: 16px;
+}
+
+.cart-buttons .btn-update {
+    min-width: 178px;
+    padding: 19px 30px;
+    font-size: 16px;
+}
+
+.cupon-input {
+    position: relative;
+}
+
+.cupon-input input {
+    width: 100%;
+    height: 52px;
+    border: none;
+    background: #fff;
+    padding: 10px 20px;
+    padding-right: 135px;
+}
+
+.cupon-input .site-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    min-width: 122px;
+}
+
+.cart-table {
+    margin-bottom: 54px;
+    overflow-y: auto;
+}
+
+.cart-table table {
+    width: 100%;
+}
+
+.cart-table thead {
+    background: -webkit-linear-gradient(45deg, #f37748 0%, #ff919c 100%);
+    margin-bottom: 55px;
+    color: #fff;
+}
+
+.cart-table thead th {
+    padding: 5px 25px;
+    text-align: center;
+    font-family: Muli-Bold, sans-serif;
+    color: white;
+    font-size: 14px;
+}
+
+.cart-table tbody td {
+    margin-top: 37px;
+}
+
+.cart-table .product-th {
+    text-align: left;
+}
+
+.cart-table .product-col {
+    display: table;
+}
+
+.cart-table .product-col img {
+    display: table-cell;
+    max-width: 187px;
+}
+
+.cart-table .product-col .pc-title {
+    padding-left: 35px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.cart-table .product-col .pc-title h4 {
+    color: #f37748;
+    font-family: Muli-Bold, sans-serif;
+    font-size: 18px;
+}
+
+.cart-table .product-col .pc-title a {
+    font-size: 12px;
+    color: #9e9e9e;
+}
+
+.cart-table .quy-input {
+    width: 147px;
+    height: 60px;
+    background: -webkit-linear-gradient(45deg, #f37748 0%, #ff919c 100%);
+    color: white;
+    overflow: hidden;
+    padding-top: 17px;
+    padding-left: 25px;
+    padding-right: 3px;
+    margin: 0 auto;
+}
+
+.cart-table .quy-input span {
+    font-size: 16px;
+}
+
+.cart-table .quy-input input {
+    font-size: 16px;
+    float: right;
+    width: 60px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.cart-table .price-col {
+    text-align: center;
+    color: #f37748;
+    font-family: Muli-Bold, sans-serif;
+    font-size: 18px;
+}
+
+.cart-table .total-col {
+    text-align: right;
+    width: 8%;
+    color: #f37748;
+    font-family: Muli-Bold, sans-serif;
+    font-size: 18px;
+
+}
+
+.cart-table .total-th {
+    text-align: right;
+}
+
+
+
+.card-warp {
+    max-width: 1284px;
+    margin: 0 auto;
+    background: -webkit-linear-gradient(45deg, #f37748 0%, #ff919c 100%);
+    color: white;
+    padding: 65px 0;
+}
+
+.shipping-info h4 {
+    font-family: Muli-Bold, sans-serif;
+    font-size: 30px;
+    color: white
+}
+
+.shipping-info p {
+    margin-bottom: 40px;
+}
+
+.shipping-chooes {
+    margin-bottom: 85px;
+}
+
+.shipping-chooes .sc-item {
+    margin-bottom: 31px;
+}
+
+.shipping-chooes label {
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 0;
+    padding-left: 35px;
+    position: relative;
+    cursor: pointer;
+}
+
+.shipping-chooes label span {
+    float: right;
+}
+
+.shipping-chooes label:after {
+    position: absolute;
+    content: "";
+    width: 16px;
+    height: 16px;
+    left: 0;
+    top: 5px;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    -webkit-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+
+.shipping-chooes input[type=radio] {
+    visibility: hidden;
+    position: absolute;
+}
+
+.shipping-chooes input[type=radio]:checked+label:after {
+    background: #f37748;
+    border: 2px solid #e95a5a;
+}
+
+
+
+.cart-total-details h4 {
+    font-family: Muli-Bold, sans-serif;
+    font-size: 30px;
+    color: white
+}
+
+.cart-total-details p {
+    margin-bottom: 40px;
+}
+
+.cart-total-details .btn-full {
+    width: 100%;
+    font-size: 16px;
+
+    padding: 20px 30px;
+}
+
+.cart-total-card {
+    background: #fff;
+    list-style: none;
+    padding: 15px 7px 77px;
+}
+
+.cart-total-card li {
+    display: block;
+    font-size: 14px;
+    color: #f37748;
+    padding: 15px 36px;
+    margin-bottom: 15px;
+    font-family: Muli-Regular, sans-serif;
+}
+
+.cart-total-card li span {
+    float: right;
+}
+
+.cart-total-card li.total {
+    background: -webkit-linear-gradient(45deg, #f37748 0%, #ff919c 100%);
+}
+
+body>div.page-area.cart-page.spad>div.card-warp>div>div>div.offset-lg-2.col-lg-6>div>ul>li.total {
+    font-family: Muli-Bold, sans-serif;
+    font-size: 22px;
+    color: white;
+}
+
+body>div.page-area.cart-page.spad>div.card-warp>div>div>div.col-lg-4>div>div.cupon-input>button {
+    border: none;
+    border-radius: 0;
+}
